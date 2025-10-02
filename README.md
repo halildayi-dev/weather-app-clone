@@ -1,9 +1,32 @@
-# Welcome to your Expo app 👋
+# Weather App Clone 🌤️
+This project is a weather application built using Tailwind CSS and React Native.
+<br>
+The design is inspired by [Google Weather Redesign](https://www.figma.com/community/file/1249443729401540968) on Figma.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+# App Screenshots:
+<div align="center">
+   <img src="./assets/screenshots/today.jpeg" width="300"/> 
+   <img src="./assets/screenshots/tenDays.jpeg" width="300"/>
+</div>
 
+
+## Features
+- Daily and hourly weather forecasts
+- Rain chance graph
+- Daily details (wind, UV index, pressure, etc.)
+- 10-day weather outlook
+- Responsive and modern design
+
+## Technologies Used
+- [React Native](https://reactnative.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Expo](https://expo.dev/)
+- `react-native-chart-kit` (grafikler için)
+- `react-native-progress` (progress bar için)
+
+
+## Getting Started
 1. Install dependencies
 
    ```bash
@@ -25,26 +48,12 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+# Backend Status
+The backend is still under development. Currently, all data is static and stored on the frontend.
+Once completed, it will be integrated via this link: [Backend API Link].
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Developing the Project
+- You can improve the app's appearance and functionality by editing the files:
+- app folder → Main application components
+- components folder → Reusable UI components
+- types folder → TypeScript type definitions
